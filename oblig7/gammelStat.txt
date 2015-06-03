@@ -1,0 +1,26 @@
+	/* public static void lagStatistikk() {
+		//1. Totalt antall vanedannende resepter og hvor mange som er skrevet ut til personer bosatt i Oslo.
+		int totAntVane = 0;
+		for (Resept r : alleResepterListe) {
+			if (r instanceof PilleTypeB || r instanceof MiksturTypeB) {
+				totAntVane++;
+			}
+		}
+		System.out.println("Det finnes totalt " + totAntVane + "vanedannende resepter.");
+
+		int totAntVaneOslo = 0;
+		for (Resept r : alleResepterListe) {
+			if (r instanceof PilleTypeB || r instanceof MiksturTypeB) {
+				if (r.getPersId().borIOslo())
+				totAntVaneOslo++;
+			}
+		}
+		System.out.println("Det er skrevet ut " + totAntVane + "vanedannende resepter til personer i Oslo.");
+		//- 2. For en gitt person, skriv ut alle dens blå resepter, yngste resept først. Personen identifiseres enten ved sitt fødselsnummer eller ved dets unike nummer i programmet.
+
+		//- 3. For en lege med et gitt navn, skriv ut alle legens resepter på mikstur-preparater, eldste resept først. Skriv også ut den samlede mengde virkestoff for alle resepter legen har skrevet ut, og hvor mye av dette som er i pilleform og hvor mye er mikstur.
+		
+
+		// - 4. For å finne medisinsk misbruk av narkotika gjør to ting: - List opp navnene på alle leger (i alfabetisk rekkefølge) som har skrevet ut minst en (gyldig eller ikke) resept på narkotiske legemidler, og antallet slike resepter per lege.
+		// - 5. List opp navnene på alle personer som har minst en gyldig resept på narkotiske legemidler, og for disse, skriv ut antallet per person.
+	} */
